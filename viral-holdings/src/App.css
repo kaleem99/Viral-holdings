@@ -82,7 +82,7 @@ h2 {
 }
 .dataSectionNames:hover {
   transform: scale(1.3);
-  color: #3D76D6;
+  color: #3d76d6;
   cursor: pointer;
 }
 h3 {
@@ -139,4 +139,34 @@ footer {
 .content {
   padding: 10px;
   border: 1px solid #ccc;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 120px;
+    height: 70px;
+    margin-top: 5px;
+  }
+  .section {
+    padding: 0px;
+    width: 100vw;
+  }
+  .dataSectionNames {
+    font-size: 11px;
+  }
+  footer {
+    font-size: 13px;
+  }
+  nav {
+    grid-template-columns: auto auto;
+  }
+  .dataSectionNames {
+    font-size: 14px;
+    text-align: center;
+    height: 35px;
+    font-weight: bold;
+  }
+  .dataSectionNames:hover {
+    transform: scale(1.1);
+  }
 }
