@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Viral-holdings/static/css/main.53f5fda5.css",
+    "main.js": "/Viral-holdings/static/js/main.ed5066e2.js",
+    "static/js/787.d426b237.chunk.js": "/Viral-holdings/static/js/787.d426b237.chunk.js",
+    "static/media/logo.png": "/Viral-holdings/static/media/logo.7b00dafcb7d1a9e1008a.png",
+    "index.html": "/Viral-holdings/index.html",
+    "main.53f5fda5.css.map": "/Viral-holdings/static/css/main.53f5fda5.css.map",
+    "main.ed5066e2.js.map": "/Viral-holdings/static/js/main.ed5066e2.js.map",
+    "787.d426b237.chunk.js.map": "/Viral-holdings/static/js/787.d426b237.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f5fda5.css",
+    "static/js/main.ed5066e2.js"
+  ]
+}
