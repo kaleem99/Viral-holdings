@@ -3,22 +3,26 @@ const contactUs = [
   {
     title: "Contact Person: Rafique",
     content: `Contact Details\n
-      Cell no: 065 090 0444`,
-    email: "Email: rafiquemoosa7007@gmail.com ",
+    Cell no: <a href="tel:0650900444">065 090 0444</a>`,
+    email:
+      "Email: <a href='mailto:rafiquemoosa7007@gmail.com'>rafiquemoosa7007@gmail.com</a>",
   },
   {
     title: "Contact Person: Avie Moosa",
     content: `Contact Details\n
-      Cell no: 067 040 1792`,
-    email: "Email: moosaavie@gmail.com",
+    Cell no: <a href="tel:0670401792">067 040 1792</a>`,
+    email:
+      "Email: <a href='mailto:moosaavie@gmail.com'>moosaavie@gmail.com</a>",
   },
   {
     title: "Office Number",
     content: `Contact Details\n
-      office no: 067 040 1792`,
-    email: "Email: viralholdingswoodworks@gmail.com",
+    Office no: <a href="tel:0100230250">010 023 0250</a>`,
+    email:
+      "Email: <a href='mailto:viralholdingswoodworks@gmail.com'>viralholdingswoodworks@gmail.com</a>",
   },
 ];
+
 const ContactUs = () => {
   return (
     <section
@@ -31,14 +35,26 @@ const ContactUs = () => {
           <div className="aboutUsDiv">
             <h3 className="title">{data.title}</h3>
             <p className="content">
-              {data.content.split("\n").map((item, index) => (
-                <React.Fragment key={index}>
-                  {item}
-                  <br />
-                </React.Fragment>
-              ))}
+              {data.content.split("\n").map((item, index) =>
+                index === 0 ? (
+                  <React.Fragment key={index}>
+                    {item}
+                    <br />
+                  </React.Fragment>
+                ) : index === 2 ? (
+                  <p
+                    className="content"
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  ></p>
+                ) : (
+                  ""
+                )
+              )}
+              <p
+                className="content"
+                dangerouslySetInnerHTML={{ __html: data.email }}
+              ></p>
             </p>
-            <p className="content">{data.email}</p>
           </div>
         );
       })}

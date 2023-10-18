@@ -15,7 +15,7 @@ const products = [
   {
     title: "service rendered",
     content: `
-    - Stair Cases\n
+    - Shop fitting\n
     - Cabinetry\n
     - Kitchens\n
     - Building Cupboards\n

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import logoImg from "./img/logo.png";
 import AboutUs from "./Pages/AboutUs";
-import Gallery from "./Pages/Services";
+import Gallery from "./Pages/Gallery";
 import ContactUs from "./Pages/ContactUs";
 import ProductsAndServices from "./Pages/ProductsAndServices";
 import { MdMenu } from "react-icons/md";
@@ -131,10 +131,12 @@ const App = () => {
       {section()}
 
       <footer>
-        <p>We thank you in advance</p>
-        <p>REGISTRATION NUMBER: 2019/314365/07</p>
-        <p>CSD-SUPPLY NUMBER: MAAA0876489</p>
-        <p>ADDRESS: No. 109 Link Road, Langlaagte Industrial</p>
+        <p className="PFooterTags">We thank you in advance</p>
+        <p className="PFooterTags">REGISTRATION NUMBER: 2019/314365/07</p>
+        <p className="PFooterTags">CSD-SUPPLY NUMBER: MAAA0876489</p>
+        <p className="PFooterTags">
+          ADDRESS: No. 109 Link Road, Langlaagte Industrial
+        </p>
       </footer>
     </div>
   );
