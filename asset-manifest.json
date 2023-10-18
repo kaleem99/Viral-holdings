@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Viral-holdings/static/css/main.8fbf4a48.css",
+    "main.js": "/Viral-holdings/static/js/main.0af83eaf.js",
+    "static/js/787.d426b237.chunk.js": "/Viral-holdings/static/js/787.d426b237.chunk.js",
+    "static/media/logo.png": "/Viral-holdings/static/media/logo.7b00dafcb7d1a9e1008a.png",
+    "static/media/Image (16).jpeg": "/Viral-holdings/static/media/Image (16).a487f9125dac1879652d.jpeg",
+    "static/media/Image (12).jpeg": "/Viral-holdings/static/media/Image (12).63771a55c615b59bfef8.jpeg",
+    "static/media/Image (11).jpeg": "/Viral-holdings/static/media/Image (11).c95fa836dc177476765d.jpeg",
+    "static/media/Image (14).jpeg": "/Viral-holdings/static/media/Image (14).677e68b6a877fc487dfe.jpeg",
+    "static/media/Image (10).jpeg": "/Viral-holdings/static/media/Image (10).2f3bb64cdafd39113d95.jpeg",
+    "static/media/Image (20).jpeg": "/Viral-holdings/static/media/Image (20).3d328fb6e65cf7bac76d.jpeg",
+    "static/media/Image (17).jpeg": "/Viral-holdings/static/media/Image (17).13ead1c6ec4fdbbc694b.jpeg",
+    "static/media/Image (24).jpeg": "/Viral-holdings/static/media/Image (24).c71f25be2de935922e09.jpeg",
+    "static/media/Image (18).jpeg": "/Viral-holdings/static/media/Image (18).73ee91c8037a70831d96.jpeg",
+    "static/media/Image (13).jpeg": "/Viral-holdings/static/media/Image (13).e7615b971788f2914c36.jpeg",
+    "static/media/Image (22).jpeg": "/Viral-holdings/static/media/Image (22).f0e60bf3f9cf8534f246.jpeg",
+    "static/media/Image (6).jpeg": "/Viral-holdings/static/media/Image (6).6807fee19fd4bcea27ea.jpeg",
+    "static/media/Image (23).jpeg": "/Viral-holdings/static/media/Image (23).3e9ffb3dbd175a930115.jpeg",
+    "static/media/Image (21).jpeg": "/Viral-holdings/static/media/Image (21).7e113f1262a9bd886863.jpeg",
+    "static/media/Image (19).jpeg": "/Viral-holdings/static/media/Image (19).5f47a2a285a1c37688e6.jpeg",
+    "static/media/Image (1).jpeg": "/Viral-holdings/static/media/Image (1).bf33beeeb80cd767f56b.jpeg",
+    "static/media/Image (2).jpeg": "/Viral-holdings/static/media/Image (2).3fdcd0e0f84cfcda0d2d.jpeg",
+    "static/media/Image (25).jpeg": "/Viral-holdings/static/media/Image (25).6b2099e4c30b95c4107a.jpeg",
+    "static/media/Image (8).jpeg": "/Viral-holdings/static/media/Image (8).4aa4a441910645967e91.jpeg",
+    "static/media/Image (15).jpeg": "/Viral-holdings/static/media/Image (15).62c2dab7767b7cb2994d.jpeg",
+    "static/media/Image (9).jpeg": "/Viral-holdings/static/media/Image (9).274de57c033a96628f07.jpeg",
+    "static/media/Image (4).jpeg": "/Viral-holdings/static/media/Image (4).9a820ab2c45b4c75b2f9.jpeg",
+    "static/media/Image (3).jpeg": "/Viral-holdings/static/media/Image (3).e031df874e4dd93e5186.jpeg",
+    "static/media/Image (5).jpeg": "/Viral-holdings/static/media/Image (5).f8dd5fb63825432653e6.jpeg",
+    "static/media/Image (7).jpeg": "/Viral-holdings/static/media/Image (7).33ed1fe0c74ab1f16649.jpeg",
+    "index.html": "/Viral-holdings/index.html",
+    "main.8fbf4a48.css.map": "/Viral-holdings/static/css/main.8fbf4a48.css.map",
+    "main.0af83eaf.js.map": "/Viral-holdings/static/js/main.0af83eaf.js.map",
+    "787.d426b237.chunk.js.map": "/Viral-holdings/static/js/787.d426b237.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fbf4a48.css",
+    "static/js/main.0af83eaf.js"
+  ]
+}
