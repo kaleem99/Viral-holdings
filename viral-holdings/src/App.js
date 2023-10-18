@@ -6,6 +6,8 @@ import Gallery from "./Pages/Gallery";
 import ContactUs from "./Pages/ContactUs";
 import ProductsAndServices from "./Pages/ProductsAndServices";
 import { MdMenu } from "react-icons/md";
+import { MdOutlineCancel } from "react-icons/md";
+
 const arr = ["About us", "ProductsAndServices", "Gallery", "Contact"];
 
 const App = () => {
@@ -90,25 +92,33 @@ const App = () => {
         )}
       </nav>
       {popup && (
-        <div
-          style={{
-            width: "200px",
-            height: "130px",
-            // border: "1px solid",
-            position: "absolute",
-            top: 70,
-            // right: 10,
-            right: 20,
-            background: "#ccc",
-            borderRadius: "12px",
-            padding: "4px",
-          }}
-        >
+        <div className="NavigationPopup">
+          <img
+            style={{
+              width: "80px",
+              marginLeft: "5%",
+              borderRadius: "1px",
+              marginTop: "2%",
+            }}
+            alt=""
+            src={logoImg}
+          ></img>
+          <div
+            style={{
+              position: "absolute",
+              right: "5%",
+              fontSize: "30px",
+              top: "5%",
+            }}
+            onClick={() => setPopup(false)}
+          >
+            <MdOutlineCancel />
+          </div>
           {arr.map((data) => {
             return (
               <div
                 style={
-                  data === state ? { color: "#3D76D6", fontWeight: "bold" } : {}
+                  data === state ? { color: "white", fontWeight: "bold" } : {}
                 }
                 className="dataSectionNames"
                 onClick={() => {
@@ -116,7 +126,7 @@ const App = () => {
                   setPopup(false);
                 }}
               >
-                {data}
+                <p style={{ fontSize: "16px", fontWeight: "bold" }}>{data}</p>
               </div>
             );
           })}

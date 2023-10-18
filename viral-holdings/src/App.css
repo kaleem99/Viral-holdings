@@ -20,10 +20,11 @@ body {
 }
 .dataSectionNames {
   cursor: pointer;
+  width: 90%;
 }
 nav {
   /* background-color: #333; */
-  height: 100px;
+  height: 80px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   text-align: center;
@@ -118,6 +119,18 @@ footer {
   margin-left: 40px;
   margin-top: 40px;
 }
+.NavigationPopup {
+  width: 200px;
+  height: 130px;
+  /* border: 1px solid; */
+  position: absolute;
+  top: 70px;
+  /* right: 10px; */
+  right: 20px;
+  background: #265283;
+  border-radius: 12px;
+  padding: 4px;
+}
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   nav ul {
@@ -147,6 +160,13 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  .NavigationPopup {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    border-radius: 0px;
+  }
   .logo {
     width: 120px;
     height: 70px;
@@ -158,6 +178,9 @@ footer {
   }
   .dataSectionNames {
     font-size: 11px;
+    margin: 8px auto;
+    border: 1px solid white;
+    height: auto;
   }
   footer {
     font-size: 13px;
@@ -169,7 +192,7 @@ footer {
   .dataSectionNames {
     font-size: 14px;
     text-align: center;
-    height: 35px;
+    height: auto;
     font-weight: bold;
   }
   .dataSectionNames:hover {
@@ -184,5 +207,14 @@ footer {
   }
   .PFooterTags {
     width: auto;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 14px;
+  }
+  .app {
+    grid-template-rows: 13% 67% 20%;
   }
 }
